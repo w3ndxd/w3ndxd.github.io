@@ -69,11 +69,6 @@ p {
   transition: color 1s ease, background-color 1s ease;
 }
 
-.nav-links a.current {
-  color: var(--blue);
-  font-weight: 700;
-}
-
 table,
 th,
 td {
