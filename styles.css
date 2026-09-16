@@ -81,12 +81,8 @@ td {
   background-color: #f2f2f2;
 }
 
-table th {
-  border-radius: 5px;
-}
-
 th {
-  background-color: aquamarine;
+  background-color: rgb(145, 230, 230);
 }
 
 .progress-container {
@@ -109,4 +105,28 @@ th {
   text-align: center;
   margin-top: 10px;
   font-size: 14px;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.profile-img {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--blue);
+}
+
+.bio {
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  text-align: left;
+  line-height: 1.6;
 }
