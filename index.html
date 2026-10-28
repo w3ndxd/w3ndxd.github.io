@@ -2,24 +2,104 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Ahmet Cemal Karacif</title>
+  <meta name="description"
+    content="Portfolio of Ahmet Cemal Karacif, first-year HBO-ICT student at HZ: why I chose ICT, my goals and my progress.">
+  <link rel="icon" type="image/png" href="img/hz-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=IBM+Plex+Sans:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class="navbar">
-        <nav class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">Who am I</a>
-            <a href="blog.html">Blog</a>
-            <a href="dashboard.html">Dashboard</a>
-            <a href="why-it.html">Why IT?</a>
-        </nav>
-    </header>
-    <h1>Welcome to my website!</h1>
-    <p>This is the home page of my website.</p>
+  <!-- navigation menu -->
+  <header>
+    <nav class="main-nav" aria-label="Main">
+      <a href="index.html" class="current" aria-current="page">Home</a>
+      <a href="about.html">Who am I</a>
+      <a href="why-it.html">Why IT?</a>
+      <a href="goals.html">Goals</a>
+      <a href="direction.html">Direction</a>
+    </nav>
+  </header>
+
+  <!-- main content -->
+  <main>
+    <div class="big-block">
+      <h1>Welcome to my website!</h1>
+      <img class="hero-img" src="img/code-window.svg" width="480" height="300"
+        alt="A code window with a short profile of Ahmet: studies ICT at HZ, loves math and building">
+      <section class="panel">
+        <p>
+          Hi, I'm Ahmet Cemal Karacif, a first-year ICT student at <a href="https://hz.nl/en"
+          target="_blank" rel="noopener">HZ University of Applied Sciences</a>. I come from
+          Turkey and moved to the Netherlands about a year ago. In that year I learned Dutch,
+          passed my Dutch state exams and started this study. On this website you can read who
+          I am, why ICT suits me, what my goals are and where I want to go.
+        </p>
+      </section>
+      <section class="panel">
+        <h2>Why ICT suits me</h2>
+        <p>
+          Math is my favourite way of thinking: there is a problem, a method and a result that
+          you can check. Programming asks for the same: break a problem into steps, try it,
+          check the result and adjust. These are my three reasons:
+        </p>
+        <ul>
+          <li>
+            <strong>Calculate:</strong> math is my strongest subject. In ICT it becomes
+            something I can build with, from algorithms to data.
+          </li>
+          <li>
+            <strong>Build:</strong> I learn best by doing, and in ICT I make real things instead
+            of only reading about them.
+          </li>
+          <li>
+            <strong>Adapt:</strong> I learned Dutch up to B2 level within five months. I am used
+            to learning fast in a new situation, and ICT keeps changing.
+          </li>
+        </ul>
+        <a class="button" href="why-it.html">My full motivation</a>
+        <a class="button" href="goals.html">My goals</a>
+        <a class="button" href="direction.html">My direction</a>
+      </section>
+    </div>
+  </main>
+
+  <!-- external links -->
+  <aside>
+    <div class="panel">
+      <h2>External links</h2>
+      <ul>
+        <li>
+          <a href="https://hz.nl/en/about-hz/regulations-documents" target="_blank" rel="noopener">HZ Course and
+            Examination Regulations (CER)</a>
+        </li>
+        <li>
+          <a href="https://hz.reader.docfield.com/80871c39-9285-4b38-85e4-78a0efbc2461" target="_blank" rel="noopener">Implementation
+            Regulations (IR) of HBO-ICT</a>
+        </li>
+        <li>
+          <a href="https://learn.hz.nl/my/" target="_blank" rel="noopener">HZ ICT Learn environment</a>
+        </li>
+        <li>
+          <a href="https://hz.osiris-student.nl/" target="_blank" rel="noopener">My study progress (Osiris)</a>
+        </li>
+        <li>
+          <a href="https://github.com/HZ-HBO-ICT" target="_blank" rel="noopener">GitHub of the HZ ICT programme</a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- footer with HZ logo -->
+  <footer>
+    <img src="img/hz-logo.png" alt="HZ University of Applied Sciences logo">
+    <p>Built with HTML and CSS by Ahmet Karacif, HBO-ICT student at HZ</p>
+  </footer>
 </body>
 
 </html>

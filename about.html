@@ -2,45 +2,148 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Who am I</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Who am I | Ahmet Cemal Karacif</title>
+  <meta name="description"
+    content="Who is Ahmet Cemal Karacif? A first-year HBO-ICT student at HZ from Turkey: my background, results, hobbies and contact.">
+  <link rel="icon" type="image/png" href="img/hz-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=IBM+Plex+Sans:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class="navbar">
-        <nav class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">Who am I</a>
-            <a href="blog.html">Blog</a>
-            <a href="dashboard.html">Dashboard</a>
-            <a href="why-it.html">Why IT?</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Who am I?</h1>
-        <p class="tagline">Student HBO-ICT</p>
+  <!-- navigation menu -->
+  <header>
+    <nav class="main-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="current" aria-current="page">Who am I</a>
+      <a href="why-it.html">Why IT?</a>
+      <a href="goals.html">Goals</a>
+      <a href="direction.html">Direction</a>
+    </nav>
+  </header>
 
-        <img src="img/profile.jpg" alt="Photo of Ahmet Cemal Karacif" class="profile-img">
-
-        <h2>About Me</h2>
-        <p class="bio">
-            Hi, I'm Ahmet. I am a first-year HBO-ICT student with a passion for problem-solving,
-            structured thinking, and analytical challenges. Outside of my studies, I love hanging
-            out with friends, listening to music, playing video games, and shooting pool in our
-            basement. I am a naturally fast learner and I pride myself on having strong
-            mathematical skills and an easy ability to connect with new people. I chose HBO-ICT
-            because I want to build a solid, professional foundation in technology while
-            sharpening my analytical and coding abilities for the future. Though I thrive on
-            clarity and system, I am also a deep thinker who constantly reflects on the details to
-            make sure everything is truly done right.
+  <!-- main content -->
+  <main>
+    <div class="big-block">
+      <h1>Who am I?</h1>
+      <section class="panel">
+        <img class="profile-img" src="img/profile.jpg" width="190" height="190"
+          alt="A photo of Ahmet Karacif">
+        <p class="tagline">Student HBO-ICT at HZ</p>
+      </section>
+      <section class="panel">
+        <h2>About me</h2>
+        <p>
+          Hi, I'm Ahmet. I am from Turkey and I moved to the Netherlands about a year ago. Now
+          I am a first-year ICT student at HZ. Math has always been my strongest subject, and I
+          like problems that I can solve step by step. I learn fast and I find it easy to talk to
+          new people and connect with them.
         </p>
-
-        <h2>General Information</h2>
+        <p>
+          I like to do things properly, so I often check my work more than once. That is good for
+          the quality, but it can make me slow. I work on this in my
+          <a href="goals.html">goals</a>.
+        </p>
+        <p>
+          Moving to a new country taught me a lot about myself. I learned Dutch up to B2 level
+          in six months. The table below shows what I achieved before HZ. For me it shows that
+          when I set a goal, I make a plan and work on it every day. That is the attitude I want
+          to bring to ICT.
+        </p>
+      </section>
+      <section class="panel">
+        <h2>What I achieved before HZ</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">What</th>
+              <th scope="col">Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Turkish national state exams (science track)</th>
+              <td>Rank 7647 out of 1.5 million, top 0.5%</td>
+            </tr>
+            <tr>
+              <th scope="row">Dutch state exam NT2 programma II</th>
+              <td>Passed</td>
+            </tr>
+            <tr>
+              <th scope="row">Dutch state exam vwo mathematics B</th>
+              <td>Passed</td>
+            </tr>
+            <tr>
+              <th scope="row">Dutch language level</th>
+              <td>B2, reached within 5 months</td>
+            </tr>
+            <tr>
+              <th scope="row">IELTS (English)</th>
+              <td>7.5, C1</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="panel">
+        <h2>What I do outside of school</h2>
+        <ul>
+          <li>Playing video games</li>
+          <li>Listening to music</li>
+          <li>Hanging out with friends</li>
+          <li>Shooting pool in the basement</li>
+        </ul>
+      </section>
+      <section class="panel">
+        <h2>General information</h2>
         <p>Name: Ahmet Cemal Karacif</p>
-        <p>Email: kara0052@hz.nl</p>
-    </main>
+        <p>From: Turkey. I now live in Vlissingen, the Netherlands.</p>
+        <p>Email: <a href="mailto:kara0052@hz.nl">kara0052@hz.nl</a></p>
+        <h3>Find me online</h3>
+        <a class="button" href="https://github.com/w3ndxd"
+          target="_blank" rel="noopener">GitHub</a>
+        <a class="button" href="https://www.linkedin.com/in/ahmet-cemal-karacif-b8b6513b5/"
+          target="_blank" rel="noopener">LinkedIn</a>
+        <a class="button" href="https://www.instagram.com/_aahmetcemal/"
+          target="_blank" rel="noopener">Instagram</a>
+      </section>
+    </div>
+  </main>
+
+  <!-- external links -->
+  <aside>
+    <div class="panel">
+      <h2>External links</h2>
+      <ul>
+        <li>
+          <a href="https://hz.nl/en/about-hz/regulations-documents" target="_blank" rel="noopener">HZ Course and
+            Examination Regulations (CER)</a>
+        </li>
+        <li>
+          <a href="https://hz.reader.docfield.com/80871c39-9285-4b38-85e4-78a0efbc2461" target="_blank" rel="noopener">Implementation
+            Regulations (IR) of HBO-ICT</a>
+        </li>
+        <li>
+          <a href="https://learn.hz.nl/my/" target="_blank" rel="noopener">HZ ICT Learn environment</a>
+        </li>
+        <li>
+          <a href="https://hz.osiris-student.nl/" target="_blank" rel="noopener">My study progress (Osiris)</a>
+        </li>
+        <li>
+          <a href="https://github.com/HZ-HBO-ICT" target="_blank" rel="noopener">GitHub of the HZ ICT programme</a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- footer with HZ logo -->
+  <footer>
+    <img src="img/hz-logo.png" alt="HZ University of Applied Sciences logo">
+    <p>Built with HTML and CSS by Ahmet Karacif, HBO-ICT student at HZ</p>
+  </footer>
 </body>
 
 </html>
