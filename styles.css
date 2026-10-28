@@ -204,6 +204,14 @@ tbody th {
   background-color: var(--pale-blue);
 }
 
+td p {
+  margin: 0 0 8px 0;
+}
+
+td p:last-child {
+  margin-bottom: 0;
+}
+
 /* ===== 7. WHY IT: three boxes inside each other (WHAT, HOW, WHY) ===== */
 .rings {
   width: 270px;
