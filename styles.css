@@ -14,13 +14,13 @@
 /* ===== 2. BASICS: page background, fonts, links ===== */
 * {
   box-sizing: border-box;
-  border-radius: 0; /* no rounded corners anywhere */
+  border-radius: 0;
 }
 
 body {
   margin: 0;
   background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
-  background-color: #8fb8d8; /* shown if the photo does not load */
+  background-color: #8fb8d8;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -44,9 +44,9 @@ img {
   height: auto;
 }
 
-/* ===== 3. NAVIGATION: the menu bar that stays at the top ===== */
+/* ===== 3. NAVIGATION ===== */
 header {
-  position: sticky; /* stays visible when I scroll */
+  position: sticky;
   top: 0;
   padding: 10px 16px;
   background-color: var(--white);
@@ -54,7 +54,7 @@ header {
 }
 
 .main-nav {
-  display: flex; /* puts the links next to each other */
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
@@ -69,11 +69,11 @@ header {
 }
 
 .main-nav a:hover {
-  background-color: var(--pale-blue); /* hover effect */
+  background-color: var(--pale-blue);
 }
 
 .main-nav a.current {
-  background-color: var(--blue); /* the page I am on */
+  background-color: var(--blue);
   color: var(--white);
 }
 
@@ -87,7 +87,7 @@ aside {
 
 .big-block {
   padding: 28px;
-  background-color: rgba(255, 255, 255, 0.55); /* see-through, so the photo shows */
+  background-color: rgba(255, 255, 255, 0.55);
   border: 1px solid var(--white);
 }
 
@@ -267,11 +267,4 @@ td p:last-child {
 
 .threats {
   background-color: var(--pale-red);
-}
-
-/* ===== 9. SMALL SCREENS: one column on a phone ===== */
-@media (max-width: 600px) {
-  .swot-grid {
-    grid-template-columns: 1fr;
-  }
 }
